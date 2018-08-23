@@ -1,0 +1,23 @@
+#workarea-content {
+	position: relative;
+}
+
+.landing-filter-loading {
+	background: url("/bitrix/images/landing/circular-loader.svg") no-repeat;
+	left: 50%;
+	height: 110px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 110px;
+	z-index: 10;
+}
+
+.bitrix24-light-theme .landing-filter-loading {
+	background: url("/bitrix/images/landing/circular-loader-light-mode.svg") no-repeat;
+}
+
+.bitrix24-dark-theme .landing-filter-loading {
+	background: url("/bitrix/images/landing/circular-loader-dark-mode.svg") no-repeat;
+	opacity: 0.4;
+}

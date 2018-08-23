@@ -1,0 +1,33 @@
+.form__wrapper .hide{
+    display: none!important;
+}
+
+#del_filter{
+    display: none;
+}
+
+#wait_ajax_filter {
+    border: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    background-color: white !important;
+    opacity: .6 !important;
+    display: table !important;
+    position: fixed !important;
+    vertical-align: middle !important;
+    top: 0 !important;
+    left: 0 !important;
+    background-image: none !important;
+    z-index: 99!important;
+}
+
+#wait_ajax_filter:before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url('//sbswine.by.opt-images.1c-bitrix-cdn.ru/bitrix/templates/main/img/ajaxLoader.gif?15168636001517') no-repeat center center
+}

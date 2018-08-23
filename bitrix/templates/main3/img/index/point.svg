@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.2 439.8">
+	<style>
+		.pin{fill:#7d201e; transition: fill .2s ease;} .pin:hover{transform: scale(1.1)}
+	</style>
+	<path d="M153.1 0C68.6 0 0 68.6 0 153.1c0 113.6 153.1 286.7 153.1 286.7s153.1-173.2 153.1-286.7C306.2 68.6 237.7 0 153.1 0zm0 217.7c-35.7 0-64.6-28.9-64.6-64.6s28.9-64.6 64.6-64.6 64.6 28.9 64.6 64.6-28.9 64.6-64.6 64.6z" class="pin"/>
+</svg>

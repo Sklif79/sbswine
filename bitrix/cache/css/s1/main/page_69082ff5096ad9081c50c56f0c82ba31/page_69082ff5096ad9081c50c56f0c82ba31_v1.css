@@ -1,0 +1,41 @@
+
+
+/* Start:/bitrix/components/bitrix/voting.form/templates/main_page/style.css?1534772632397*/
+.voting-form-box
+{
+	font-size:100%;
+}
+
+.voting-form-box .active
+{
+	color:green;
+}
+
+.voting-form-box .disable
+{
+	color:red;
+}
+
+.voting-form-box label
+{
+	line-height:20px;
+}
+
+.voting-form-box form
+{
+	margin:0;
+}
+
+.starrequired 
+{
+    color:red;
+}
+.vote-reply-field-captcha-label {
+    margin-bottom:6px;}
+.vote-vote-footer {
+    margin-top:6px;}
+.vote-reply-field-captcha-image {
+    margin:6px 0;}
+
+/* End */
+/* /bitrix/components/bitrix/voting.form/templates/main_page/style.css?1534772632397 */

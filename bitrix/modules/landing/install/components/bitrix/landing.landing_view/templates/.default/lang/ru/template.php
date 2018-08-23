@@ -1,0 +1,11 @@
+<?php
+$MESS['LANDING_TPL_PUBLIC_URL'] = 'Опубликовать';
+$MESS['LANDING_TPL_PREVIEW_URL'] = 'Предпросмотр';
+$MESS['LANDING_TPL_SETTINGS_URL'] = 'Настройки';
+$MESS['LANDING_TPL_SETTINGS_PAGE_URL'] = 'Настройки страницы';
+$MESS['LANDING_TPL_SETTINGS_SITE_URL'] = 'Настройки сайта';
+$MESS['LANDING_TPL_START_PAGE'] = 'Мои сайты';
+$MESS['LANDING_TPL_START_PAGE_PAGE'] = 'Мои сайты';
+$MESS['LANDING_TPL_START_PAGE_STORE'] = 'Мои магазины';
+$MESS['LANDING_TPL_START_PAGE_LOGO'] = 'Битрикс';
+$MESS['LANDING_TPL_START_PAGE_LOGO_24'] = '24';

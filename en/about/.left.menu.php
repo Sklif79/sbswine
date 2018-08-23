@@ -1,0 +1,32 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"History",
+		"/en/about/history/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Consultants",
+		"/en/about/consultants/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Reviews",
+		"/en/about/reviews/",
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"News & Events",
+		"/en/about/news_events/",
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

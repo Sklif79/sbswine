@@ -1,0 +1,6 @@
+[user]
+	name = Dmitry Kuzminich
+	email = luiwadjogs@gmail.com
+[pack]
+	threads = 1
+	windowMemory = 256m

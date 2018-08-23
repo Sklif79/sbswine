@@ -1,0 +1,3 @@
+<?
+$MESS["BRANDS"] = "Our brands";
+?>

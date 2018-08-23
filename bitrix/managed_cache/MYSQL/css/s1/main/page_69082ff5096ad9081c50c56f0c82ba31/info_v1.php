@@ -1,0 +1,1 @@
+<? $filesInfo = array("/bitrix/components/bitrix/voting.form/templates/main_page/style.css" => "1534772632397",); ?>

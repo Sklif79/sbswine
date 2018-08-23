@@ -1,0 +1,7 @@
+<?
+if($INCLUDE_FROM_CACHE!='Y')return false;
+$datecreate = '001534773310';
+$dateexpire = '001534776910';
+$ser_content = 'a:2:{s:7:"CONTENT";s:0:"";s:4:"VARS";a:2:{i:1028;a:14:{s:2:"ID";s:4:"1028";s:11:"TIMESTAMP_X";s:19:"18.06.2018 14:39:51";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"667";s:5:"WIDTH";s:4:"1000";s:9:"FILE_SIZE";s:5:"78445";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/ab2";s:9:"FILE_NAME";s:42:"WhatsApp-Image-2018_05_28-at-14.07.11.jpeg";s:13:"ORIGINAL_NAME";s:42:"WhatsApp Image 2018-05-28 at 14.07.11.jpeg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"ebc3fc1927b1ba6c7be54b248af0440a";s:4:"~src";b:0;}i:1029;a:14:{s:2:"ID";s:4:"1029";s:11:"TIMESTAMP_X";s:19:"18.06.2018 14:39:51";s:9:"MODULE_ID";s:6:"iblock";s:6:"HEIGHT";s:3:"667";s:5:"WIDTH";s:4:"1000";s:9:"FILE_SIZE";s:5:"78445";s:12:"CONTENT_TYPE";s:10:"image/jpeg";s:6:"SUBDIR";s:10:"iblock/aa6";s:9:"FILE_NAME";s:42:"WhatsApp-Image-2018_05_28-at-14.07.11.jpeg";s:13:"ORIGINAL_NAME";s:42:"WhatsApp Image 2018-05-28 at 14.07.11.jpeg";s:11:"DESCRIPTION";s:0:"";s:10:"HANDLER_ID";N;s:11:"EXTERNAL_ID";s:32:"6685b20f6a221ec550c83f83c06f679e";s:4:"~src";b:0;}}}';
+return true;
+?>

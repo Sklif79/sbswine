@@ -1,0 +1,4 @@
+[24-Jan-2018 12:32:41 Europe/Minsk] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/flxmdby/sites_dir_dev/wine.flxmd.by/bitrix/modules/iblock/admin/iblock_templates.ajax.php on line 111
+[24-Jan-2018 14:30:42 Europe/Minsk] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/flxmdby/sites_dir_dev/wine.flxmd.by/bitrix/modules/iblock/admin/iblock_templates.ajax.php on line 111
+[24-Jan-2018 15:07:49 Europe/Minsk] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/flxmdby/sites_dir_dev/wine.flxmd.by/bitrix/modules/iblock/admin/iblock_templates.ajax.php on line 111
+[24-Jan-2018 16:37:29 Europe/Minsk] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/flxmdby/sites_dir_dev/wine.flxmd.by/bitrix/modules/iblock/admin/iblock_templates.ajax.php on line 111
