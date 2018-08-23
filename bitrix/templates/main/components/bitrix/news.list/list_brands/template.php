@@ -17,7 +17,7 @@ $ajaxUrl = $templateFolder.'/ajax/'.LANGUAGE_ID.'/ajax.php';
                     <div class="dropdown-list">
                         <div class="dropdown-list__wrapper">
                             <div class="dropdown-list__image">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                                <svg height="16" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                                     <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                                 </svg>
                             </div>

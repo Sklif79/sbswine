@@ -5803,6 +5803,10 @@ b, strong {
     font-weight: bold;
 }
 
+.dropdown-list__image {
+    max-height: 16px;
+}
+
 .index-main-slider .slick-arrow {
     bottom: 10px;
 }
