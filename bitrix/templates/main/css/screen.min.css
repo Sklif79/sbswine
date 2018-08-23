@@ -5842,6 +5842,36 @@ html.remodal-is-locked, html.remodal-is-locked body {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    .age-confirm__modal {
+        width: 85%;
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .age-confirm__title {
+        margin-bottom: 15px;
+    }
+
+    .age-confirm__description {
+        margin-bottom: 15px;
+        font-size: 1rem;
+        line-height: 1.25rem;
+    }
+
+    .age-confirm {
+        padding-top: 10px;
+    }
+
+    .age-confirm .checkbox__label {
+        margin-bottom: 0;
+    }
+
+    .age-confirm__btn {
+        margin-bottom: 0;
+    }
+}
+
 @media only screen and (max-width: 30rem) {
     .index-main-slider__first {
         min-height: 0;
