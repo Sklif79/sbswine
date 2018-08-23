@@ -33,7 +33,9 @@ if (count($arResult["ITEMS"]) <= 0)
         <div class="index-main-slider__slider second-slider" id="index-main-slider__second">
             <?foreach($arResult["ITEMS"] as $arItem):?>
                 <div class="index-main-slider__slide">
-                    <div class="index-main-slider__big-image" style="background-image: url('<?=$arItem["RESIZE_IMG"]["src"]?>');"></div>
+                    <div class="index-main-slider__big-image" style="background-image: url('<?=$arItem["RESIZE_IMG"]["src"]?>');">
+                        <img src="<?=$arItem["RESIZE_IMG"]["src"]?>" class="index-main-slider__img">
+                    </div>
                 </div>
             <?endforeach;?>
         </div>
