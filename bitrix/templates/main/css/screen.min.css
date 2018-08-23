@@ -5854,6 +5854,15 @@ b, strong {
     .index-main-slider__slide-inner {
         min-height: 0;
     }
+
+    .index-guest-slider {
+        padding-bottom: 50px;
+    }
+
+    .index-guest-slider__slider.red-slider .slick-arrow.slick-next,
+    .index-guest-slider__slider.red-slider .slick-arrow.slick-prev {
+        bottom: 48px;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
