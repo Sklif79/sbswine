@@ -5820,6 +5820,8 @@ html.remodal-is-locked, html.remodal-is-locked body {
 
     .index-main-slider {
         margin-top: 0;
+        height: auto;
+        max-height: none;
     }
 
     .index-main-slider__big-image {
@@ -5839,6 +5841,10 @@ html.remodal-is-locked, html.remodal-is-locked body {
 
     .index-main-slider .slick-dots li button {
         width: 10px;
+    }
+
+    .index-main-slider__slide-inner {
+        min-height: 0;
     }
 }
 
