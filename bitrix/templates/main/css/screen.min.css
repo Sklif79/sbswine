@@ -5799,6 +5799,10 @@ html.remodal-is-locked, html.remodal-is-locked body {
 }
 
 /**/
+b, strong {
+    font-weight: bold;
+}
+
 .index-main-slider .slick-arrow {
     bottom: 10px;
 }
