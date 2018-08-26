@@ -9,7 +9,7 @@ $ajaxUrl = $templateFolder.'/ajax/'.LANGUAGE_ID.'/ajax.php';
 
 <?if(!$arParams['IS_AJAX']):?>
 <div class="article">
-    <div class="section">
+    <div class="">
         <div class="brands-block">
             <div class="brands-block__wrapper">
                 <div class="brands-block__upper">
