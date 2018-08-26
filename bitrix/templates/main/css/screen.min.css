@@ -5957,11 +5957,16 @@ i, em {
     }
 
     .index-services {
-        padding-top: 0;
+        padding-top: 25px;
+        padding-bottom: 0;
     }
 
     .index-guest-slider {
         transform: translateY(0);
+    }
+
+    .index-services__cards-block {
+        margin-top: 0 !important;
     }
 
     .index-guests-section__text-block {
