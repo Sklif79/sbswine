@@ -5867,6 +5867,18 @@ i, em {
     .index-guest-slider__slider.red-slider .slick-arrow.slick-prev {
         bottom: 48px;
     }
+
+    .index-guest-slider__slider.red-slider .slick-arrow {
+        transition: 0s;
+    }
+
+    .index-guest-slider__slider.red-slider .slick-arrow.slick-prev:hover {
+        transform: rotate(180deg) translateX(2.5rem);
+    }
+
+    .index-guest-slider__slider.red-slider .slick-arrow.slick-next:hover {
+        transform: translateX(2.5rem);
+    }
 }
 
 @media only screen and (max-width: 1024px) {
