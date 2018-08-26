@@ -18,7 +18,7 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
                     <?if($arResult["bSavePage"]):?>
                         <a href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]+1)?>">
                             <div class="pagination__item pagination__item--right pagination__item--arrow">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                                <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                                     <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                                 </svg>
                             </div>
@@ -27,7 +27,7 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
                         <?if ($arResult["NavPageCount"] == ($arResult["NavPageNomer"]+1) ):?>
                             <a href="<?=$arResult["sUrlPath"]?><?=$strNavQueryStringFull?>">
                                 <div class="pagination__item pagination__item--right pagination__item--arrow">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                                    <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                                         <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                                     </svg>
                                 </div>
@@ -35,7 +35,7 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
                         <?else:?>
                             <a  href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]+1)?>">
                                 <div class="pagination__item pagination__item--right pagination__item--arrow">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                                    <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                                         <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                                     </svg>
                                 </div>
@@ -50,7 +50,7 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
                 </div>
                 <?//*/?>
                 <div class="pagination__item pagination__item--left pagination__item--arrow pagination__item--disabled">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                    <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                         <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                     </svg>
                 </div>
@@ -95,7 +95,7 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
             <a class="pagination__item" href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]-1)?>"></a>
         <?else:?>
             <div class="pagination__item pagination__item--left pagination__item--arrow  pagination__item--disabled">
-                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                     <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                 </svg>
             </div>
@@ -106,20 +106,20 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
 
                     <?if($arResult["bSavePage"]):?>
                         <a class="pagination__item pagination__item--left pagination__item--arrow "  href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]-1)?>">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                            <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                                 <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                             </svg>
                         </a>
                     <?else:?>
                         <?if ($arResult["NavPageNomer"] > 2):?>
                             <a class="pagination__item pagination__item--left pagination__item--arrow " href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]-1)?>">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                                <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                                     <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                                 </svg>
                             </a>
                         <?else:?>
                             <a class="pagination__item pagination__item--left pagination__item--arrow " href="<?=$arResult["sUrlPath"]?><?=$strNavQueryStringFull?>">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                                <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                                     <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                                 </svg>
                             </a>
@@ -128,7 +128,7 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
 
             <?else:?>
                 <div class="pagination__item pagination__item--left pagination__item--arrow pagination__item--disabled">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
+                    <svg height="8" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 8.1 13.4">
                         <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"/>
                     </svg>
                 </div>
@@ -167,13 +167,13 @@ $strNavQueryStringFull = ($arResult["NavQueryString"] != "" ? "?".$arResult["Nav
                     <a class="pagination__item" href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=$arResult["NavPageCount"]?>"><?=$arResult["NavPageCount"]?></a>
                 <?endif;?>
             <a class="pagination__item pagination__item--right pagination__item--arrow" href="<?=$arResult["sUrlPath"]?>?<?=$strNavQueryString?>PAGEN_<?=$arResult["NavNum"]?>=<?=($arResult["NavPageNomer"]+1)?>">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.1 13.4">
+                <svg height="8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.1 13.4">
                     <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"></path>
                 </svg>
             </a>
         <?else:?>
             <div class="pagination__item pagination__item--right pagination__item--arrow pagination__item--disabled">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.1 13.4">
+                <svg height="8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8.1 13.4">
                     <path d="M1.4 13.4L0 12l5.3-5.3L0 1.4 1.4 0l6.7 6.7z"></path>
                 </svg>
             </div>

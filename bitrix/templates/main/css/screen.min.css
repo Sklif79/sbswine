@@ -5854,11 +5854,11 @@ i, em {
     }
 
     .index-guest-slider__slider.red-slider .slick-arrow.slick-prev:hover {
-        transform: rotate(180deg) translateX(2.5rem);
+        transform: rotate(180deg) translateX(0);
     }
 
     .index-guest-slider__slider.red-slider .slick-arrow.slick-next:hover {
-        transform: translateX(2.5rem);
+        transform: translateX(0);
     }
 }
 
@@ -5971,6 +5971,44 @@ i, em {
     .footer {
         padding: 35px 1.25rem 30px;
     }
+
+    .advanced-page__with-aside, .advanced-page__with-halfs {
+        padding-top: 20px;
+    }
+
+    .news-page-inner-item > :not(:last-child) {
+        margin-bottom: 14px;
+    }
+
+    .news-page-inner-item > :not(:first-child) {
+        margin-top: 14px;
+    }
+
+    .news-page-inner-item li p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .advanced-page {
+        padding: 0;
+    }
+
+    .person:not(:first-child) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .person__age {
+        white-space: nowrap;
+    }
+
+    .advanced-page__content {
+        width: 100%;
+    }
+
+    .pagination {
+        margin-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 840rem) {
@@ -6059,11 +6097,56 @@ i, em {
         margin-top: 0;
         margin-bottom: 20px;
     }
+
+    .h1, h1 {
+        font-size: 26px;
+        line-height: normal;
+    }
+
+    .advanced-page h2 {
+        font-size: 22px;
+    }
+
+    .advanced-page__href-wrap:not(:last-of-type) {
+        margin-bottom: 0;
+    }
+
+    .advanced-page__aside {
+        margin-bottom: 18px;
+    }
+
+    .callback-big {
+        padding-top: 4px;
+        padding-bottom: 10px;
+    }
+
+    .index-guest-slider__slider.red-slider .slick-arrow.slick-next:hover {
+        transform: translateX(2.5rem);
+    }
+
+    .index-guest-slider__slider.red-slider .slick-arrow.slick-prev:hover {
+        transform: rotate(180deg) translatex(2.5rem)
+    }
+
+    .news-page-items {
+        padding-top: 12px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
     .index-numbers {
         margin-bottom: 57px;
+    }
+}
+
+@media only screen and (max-width: 40rem) {
+    .person__wrapper {
+        padding-top: 0;
+    }
+
+    .person__wrapper {
+        margin: 0;
+        max-width: 100%;
     }
 }
 
@@ -6095,5 +6178,27 @@ i, em {
 
     .index-guests-section {
         padding-top: 0 !important;
+    }
+
+    .remodal .form__file-button {
+        position: static;
+    }
+
+    .remodal {
+        padding: 15px;
+    }
+
+    .remodal .red-button {
+        width: 100%;
+        display: block;
+    }
+
+    .form__caption {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .callback-big__info {
+        padding-top: 0;
     }
 }
