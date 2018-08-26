@@ -5880,6 +5880,10 @@ i, em {
         margin-top: 0;
         margin-bottom: 30px;
     }
+
+    .similar-products.index-gray-block__left-side {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -6076,6 +6080,31 @@ i, em {
 
     .advanced-page__aside .checkboxes:last-of-type {
         margin-right: 0;
+    }
+
+    .catalog-page-inner-header {
+        padding-top: 18px;
+    }
+
+    .catalog-page-inner-header__price {
+        padding-bottom: 30px;
+    }
+
+    .catalog-page-inner-header__info .table {
+        margin-top: 20px;
+        margin-bottom: 9px;
+    }
+
+    .catalog-page-inner-header__info .table__body {
+        margin-top: 0;
+    }
+
+    .catalog-page-inner-header__info .table__row {
+        padding-bottom: 17px;
+    }
+
+    .advanced-page__small-single .red-button--wrapper {
+        margin-bottom: 10px;
     }
 }
 

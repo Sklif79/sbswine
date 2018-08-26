@@ -8,9 +8,9 @@ if (count($arResult["ITEMS"]) <= 0)
     <div class="section">
         <div class="index-gray-block index-gray-block--advanced">
             <div class="index-gray-block__wrapper">
-                <div class="index-gray-block__left-side index-gray-block__left-side--advanced">
+                <div class="index-gray-block__left-side index-gray-block__left-side--advanced similar-products">
                     <div class="index-gray-block__title h3 upper animateThis" data-anim="fadeInUp"><?=GetMessage("CATALOG_SIMILAR_TITLE")?></div>
-                    <div class="index-gray-block__slider long-slider animateThis" data-anim="fadeInUp" data-slick="{&quot;slidesToShow&quot;: 4, &quot;slidesToScroll&quot;: 4, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 992, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1}}]}">
+                    <div class="index-gray-block__slider long-slider animateThis" data-anim="fadeInUp" data-slick="{&quot;slidesToShow&quot;: 4, &quot;slidesToScroll&quot;: 4, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1200, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 3}} , {&quot;breakpoint&quot;: 992, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2, &quot;slidesToScroll&quot;: 2}}, {&quot;breakpoint&quot;: 768, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1}}]}">
                     <?foreach($arResult["ITEMS"] as $arItem):
                         $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
                         $this->AddDeleteAction($arItem['ID'], $arItem['DELETE_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_DELETE"), array("CONFIRM" => GetMessage('CT_BNL_ELEMENT_DELETE_CONFIRM')));
