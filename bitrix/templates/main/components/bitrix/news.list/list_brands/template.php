@@ -41,7 +41,7 @@ $ajaxUrl = $templateFolder.'/ajax/'.LANGUAGE_ID.'/ajax.php';
                 <div class="brands-block__down">
                     <?endif;  // end ajax?>
 
-                        <div class="brands-block__slider long-slider" data-slick="{&quot;slidesToShow&quot;: 5, &quot;slidesToScroll&quot;: 5, &quot;arrows&quot;: false, &quot;dots&quot;: <?=(count($arResult["ITEMS"])>5?"true":"false")?>, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 992, &quot;settings&quot;: {&quot;slidesToShow&quot;: 4, &quot;slidesToScroll&quot;: 4}},{&quot;breakpoint&quot;: 600, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2, &quot;slidesToScroll&quot;: 2}}]}">
+                        <div class="brands-block__slider long-slider" data-slick="{&quot;slidesToShow&quot;: 5, &quot;slidesToScroll&quot;: 5, &quot;arrows&quot;: false, &quot;dots&quot;: <?=(count($arResult["ITEMS"])>5?"true":"false")?>, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 992, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 3}},{&quot;breakpoint&quot;: 600, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1}}]}">
 
                             <?foreach($arResult["ITEMS"] as $arItem):
                                 $this->AddEditAction($arItem['ID'], $arItem['EDIT_LINK'], CIBlock::GetArrayByID($arItem["IBLOCK_ID"], "ELEMENT_EDIT"));
