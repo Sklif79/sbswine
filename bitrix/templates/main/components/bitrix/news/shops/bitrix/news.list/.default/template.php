@@ -6,7 +6,7 @@ if (count($arResult["ITEMS"]) <= 0)
 ?>
 <div class="shops-page-items">
     <div class="cards-slider">
-        <div class="cards-slider__wrapper long-slider" data-slick="{&quot;slidesToShow&quot;:4, &quot;slidesToScroll&quot;:4, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 992, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 3, &quot;arrows&quot;: true}},{&quot;breakpoint&quot;: 767, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2, &quot;slidesToScroll&quot;: 2, &quot;arrows&quot;: true}},{&quot;breakpoint&quot;: 600, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;arrows&quot;: true}}]}">
+        <div class="cards-slider__wrapper long-slider" data-slick="{&quot;slidesToShow&quot;:4, &quot;slidesToScroll&quot;:4, &quot;responsive&quot;: [{&quot;breakpoint&quot;: 1024, &quot;settings&quot;: {&quot;slidesToShow&quot;: 3, &quot;slidesToScroll&quot;: 3, &quot;arrows&quot;: true}},{&quot;breakpoint&quot;: 830, &quot;settings&quot;: {&quot;slidesToShow&quot;: 2, &quot;slidesToScroll&quot;: 2, &quot;arrows&quot;: true}},{&quot;breakpoint&quot;: 600, &quot;settings&quot;: {&quot;slidesToShow&quot;: 1, &quot;slidesToScroll&quot;: 1, &quot;arrows&quot;: true}}]}">
             <?if($arResult["ITEMS"][0]["LAN_LAT"]):?>
                 <?$i=0;?>
             <?endif;?>

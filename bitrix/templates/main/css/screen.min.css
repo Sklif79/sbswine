@@ -5870,6 +5870,10 @@ i, em {
     .index-gray-block__right-side, .workers-slider__right-side {
         width: 29%;
     }
+
+    .advanced-page__title-block .red-button--wrapper {
+        position: static;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -6008,6 +6012,25 @@ i, em {
 
     .pagination {
         margin-bottom: 30px;
+    }
+
+    .advanced-page__title-block .red-button--wrapper .red-button {
+        margin-bottom: 10px;
+    }
+
+    .advanced-page__content--single {
+        padding-top: 0;
+    }
+
+    .shops-page-items .cards-slider {
+        margin-top: 10px;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+
+    .advanced-map {
+        padding-top: 0;
+        padding-bottom: 30px;
     }
 }
 
