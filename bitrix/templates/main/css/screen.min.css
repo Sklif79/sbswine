@@ -6290,6 +6290,23 @@ i, em {
     .service-page-slider .index-services__cards {
         width: 100%;
     }
+
+    .contact-button .red-button {
+        margin-top: 11px;
+    }
+
+    .advanced-page__contacts {
+        margin-bottom: 0;
+    }
+
+    .advanced-page__info + .red-button--wrapper .red-button {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    .advanced-page__company-info {
+        padding-top: 21px;
+    }
 }
 
 @media only screen and (max-width: 640px) {
