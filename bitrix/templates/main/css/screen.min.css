@@ -6160,6 +6160,16 @@ i, em {
     .advanced-page__content {
         padding: 0;
     }
+
+    .search-main {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .search-page__item {
+        padding-top: 28px;
+        padding-bottom: 6px;
+    }
 }
 
 @media only screen and (max-width: 840rem) {
