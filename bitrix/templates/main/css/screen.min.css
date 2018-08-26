@@ -6317,6 +6317,40 @@ i, em {
     .advanced-page__company-info {
         padding-top: 21px;
     }
+
+    .catalog-page-inner-header__info {
+        padding-bottom: 0;
+    }
+
+    .advanced-page-inner-block {
+        padding-top: 10px;
+    }
+
+    .table {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .table__body {
+        margin-top: 0;
+    }
+
+    .news-page-inner-item .red-button {
+        margin-top: 0;
+    }
+
+    .table__cell:first-child {
+        width: 70%;
+    }
+
+    .table .t1 {
+        font-size: 16px;
+    }
+
+    .section .section {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media only screen and (max-width: 640px) {
