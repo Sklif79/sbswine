@@ -5881,8 +5881,36 @@ i, em {
         margin-bottom: 30px;
     }
 
+    .advanced-page__news-date {
+        position: static;
+    }
+
     .similar-products.index-gray-block__left-side {
         width: 100%;
+    }
+
+    .advanced-page__small-single .advanced-page__content--single {
+        flex-direction: column;
+    }
+
+    .aside-date-wrap {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .aside-date-wrap .back-button {
+        margin-bottom: 0;
+    }
+
+    .news-page-inner-item {
+        max-width: 100%;
+    }
+
+    .news-page-inner-item__image {
+        text-align: center;
     }
 }
 
@@ -6105,6 +6133,11 @@ i, em {
 
     .advanced-page__small-single .red-button--wrapper {
         margin-bottom: 10px;
+    }
+
+    .news-page-inner-item h1 {
+        font-size: 26px;
+        line-height: normal;
     }
 }
 
